@@ -132,11 +132,3 @@ window.addEventListener("keydown", (e) => {
     closeModal();
   }
 })
-${
-              movie.rating &&
-              `
-            <div class="movie__average movie__average--${getClassByRate(
-              movie.rating
-            )}">${movie.rating}</div>
-            `
-            }
